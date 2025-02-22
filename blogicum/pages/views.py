@@ -1,12 +1,15 @@
 from django.shortcuts import render
 
 
-app_name = 'pages'
+app_name = "pages"
+
+
 # Create your views here.
 def about(request):
-    template_name = 'pages/about.html'
+    template_name = "pages/about.html"
     return render(request, template_name)
 
+
 def rules(request):
-    template_name = 'pages/rules.html'
+    template_name = "pages/rules.html"
     return render(request, template_name)
